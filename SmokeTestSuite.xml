@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="API_Testing_Smoke" parallel="tests" thread-count="1"
+	preserve-order="true" data-provider-thread-count="1">
+
+	<test name="DemoTest">
+		<classes>
+			<!--  <class name="thinkitiveAPIFramework.DemoAPI.TestGetAccessToken" />
+			<class name="thinkitiveAPIFramework.DemoAPI.TestGetUserAuthentication" />
+			<class name="thinkitiveAPIFramework.DemoAPI.TestGetPatientList" />
+			<class name="thinkitiveAPIFramework.DemoAPI.TestPostNewPatient" /> -->
+			<class name="apifw.tests.Test1" />
+			<class name="apifw.tests.Test2" />
+			<class name="apifw.tests.Test3" />
+		</classes>
+	</test>
+
+</suite>
